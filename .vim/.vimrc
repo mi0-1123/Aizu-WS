@@ -132,8 +132,8 @@ language C
 syntax on
 set number
 set hidden
-set cursorline
-set cursorcolumn
+"set cursorline
+"set cursorcolumn
 set cmdheight=2
 set showmatch
 set backspace=indent,eol,start
@@ -148,3 +148,4 @@ set noswapfile
 set shortmess+=A
 inoremap " ""<LEFT>
 inoremap ' ''<LEFT>
+noremap!  
